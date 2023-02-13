@@ -8,7 +8,7 @@ const getApi = async function(pokemon){
     const response = await fetch(url + pokemon)
     const data = response.json()
 
-    console.log(data)
+    //console.log(data)
 
     return data
 }
@@ -17,7 +17,7 @@ const userApi = async function(pokemon){
     const dataApi = await getApi(pokemon)
 
     img.src = dataApi["sprites"]["other"]["dream_world"]["front_default"]
-    console.log(dataApi)
+    //console.log(dataApi)
 }
 setInterval(() => {
 
@@ -58,3 +58,5 @@ function startTime(number){
 
 }
 startTime(count)
+
+console.log("Hello develop, welcome to website!")
