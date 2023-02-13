@@ -18,3 +18,9 @@ p{
     position: absolute;
     top: 2rem;left: 2rem;
 }
+img{
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    width: 60px;
+}
